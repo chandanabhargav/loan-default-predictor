@@ -1,0 +1,6 @@
+loan_amnt,funded_amnt,term,int_rate,emp_length,home_ownership,annual_inc,verification_status,purpose,dti,delinq_2yrs
+12000,12000, 36 months,14.32,10+ years,RENT,60000,Verified,credit_card,15.7,0
+25000,25000, 60 months,18.99,2 years,OWN,85000,Source Verified,debt_consolidation,20.5,1
+8000,8000, 36 months,11.99,5 years,MORTGAGE,45000,Verified,home_improvement,10.2,0
+15000,15000, 36 months,13.49,< 1 year,RENT,72000,Not Verified,major_purchase,12.9,2
+10000,10000, 60 months,16.55,3 years,RENT,55000,Verified,medical,18.4,0
