@@ -115,19 +115,10 @@ Then visit [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ## 📦 MLflow Integration
 
-This app uses MLflow to load the latest production model:
+This project uses MLflow for **experiment tracking** and **model logging** during training.
 
-```python
-model = mlflow.pyfunc.load_model("models:/loan_default_model/Production")
-```
-
-If you haven’t set up MLflow:
-
-```bash
-mlflow ui
-```
-
-Visit: [http://localhost:5000](http://localhost:5000)
+- Metrics (e.g. AUC, F1)
+- Parameters (e.g. model type, learning rate)
 
 ---
 
